@@ -26,7 +26,7 @@
 /* Elemento de tag <body> */
 body{
     /*Para colocar uma imagem de fundo*/
-    background-image: url(../img/MicrosoftTeams-image.png); 
+    background-image: url(MicrosoftTeams-image.png); 
     /*Fonte dos elementos do body*/
     font-family: sans-serif;
     /*Tamanho da fonte dos elementos do body*/
