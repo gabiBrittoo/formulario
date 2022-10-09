@@ -21,16 +21,18 @@
 
     <!-- Início do formulário -->
     <form action="https:formsubmit.cogabihelenabritto@gmail.com" method="POST">
-        <input type="hidden" name="_next" value="http:127.0.0.1:5501index.html">
+        <input type="hidden" name="_next" value="http:127.0.0.1:5501formulario.html">
+
+        <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem! Obrigado pelo contato, logo responderemos!">
         <!--Campo de nome-->
         <div class="campo">
             <label for="nome"><strong>Nome</strong></label>
-            <input type="text" name="name" required>
+            <input type="text" name="name" placeholder="Nome" required>
         </div>
         <!--Campo do sobrenome-->
         <div class="campo">
             <label for="sobrenome"><strong>Sobrenome</strong></label>
-            <input type="text" name="sobrenome" required>
+            <input type="text" name="sobrenome" placeholder="Sobrenome" required>
         </div>
 
         <div class="campo">
@@ -41,12 +43,12 @@
         <!-- Campo de email com-->
         <div class="campo">
             <label for="email"><strong>Email</strong></label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="email" placeholder="Email" id="email" required>
         </div>
 
         <!-- Campo de escolha dos planetas com botões -->
         <div class="campo">
-            <label for="planeta"><strong>Escolha o planeta de sua preferência</strong></label>
+            <label for="planeta"><strong>Escolha a sua jornada</strong></label>
             <!-- O segundo valor estará selecionado inicialmente -->
             <select name="planeta">
                 <option value="Mercúrio">Mercúrio</option>
@@ -62,7 +64,7 @@
 
         </div>
 
-        <button type="submit">Send</button>
+        <button type="submit">Enviar</button>
     </form>
     </div>
 </body>
